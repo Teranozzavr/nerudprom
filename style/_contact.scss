@@ -1,0 +1,43 @@
+.contact_page{
+    margin-bottom: 60px;
+    .map{
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+    }
+    img{
+        margin-right: 15px;
+    }
+    a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: inherit;
+        font-weight: 600;
+        &:hover{
+            color: $def-c;
+        }
+    }
+    .phone{
+        margin: 40px 0px;
+    }
+    h2{
+        margin-bottom: 40px;
+    }
+}
+.form_section_contact{
+    iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .btn_orange{
+        margin-top: 0;
+    }
+    .col_form{
+        width: 100%;
+    }
+    .col_img{
+        width: 800px;
+    }
+}
